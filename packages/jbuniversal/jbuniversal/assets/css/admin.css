@@ -1,0 +1,145 @@
+/**
+ * JBZoo is universal CCK, application for YooTheme Zoo component
+ * @package     JBZoo
+ * @author      JBZoo App http://jbzoo.com
+ * @copyright   Copyright (C) JBZoo.com
+ * @license     http://www.gnu.org/licenses/gpl.html GNU/GPL
+ */
+
+.icon-32-jbzoosupport {
+    background: url('../img/toolbar/support_32.png') 50% 100% no-repeat;;
+}
+
+.jbprice {
+    width: 200px !important;
+    max-width: 200px !important;
+    min-width: 200px !important;
+    margin-right: 12px !important;
+}
+
+.jbbasket-table {
+    border: 1px solid #ccc;
+    width: 95%;
+    border-collapse: collapse;
+}
+
+.jbbasket-table td,
+.jbbasket-table th {
+    padding: 4px;
+}
+
+.jbbasket-table tbody td {
+    border: 1px solid #ccc;
+}
+
+/* JBImage Element */
+.creation-form .element-jbimage input.jbimage-select {
+    width: 284px !important;
+    padding-right: 25px;
+    vertical-align: top;
+}
+
+.creation-form .element-jbimage span.image-cancel {
+    margin: 5px 15px 0 -25px;
+    vertical-align: text-top;
+}
+
+.creation-form .element-jbimage button {
+    display: inline-block;
+    width: 90px;
+    height: 32px;
+    padding: 0px 0px 2px 0px;
+    border: 1px solid #c8c8c8;
+    border-bottom-color: #aaaaaa;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: #ebebeb;
+    background: -moz-linear-gradient(50% 0%, #ffffff, #ebebeb 70%);
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, from(#ffffff), to(#ebebeb), color-stop(70%, #ebebeb));
+    font-size: 12px;
+    line-height: 24px;
+    color: #323232;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 1.0);
+}
+
+.creation-form .element-jbimage button:hover {
+    border: 1px solid #c8c8c8;
+    border-top-color: #aaaaaa;
+    background: #e1e1e1;
+    background: -moz-linear-gradient(50% 0%, #e1e1e1, #f5f5f5 96%, #ffffff 96%);
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, from(#e1e1e1), to(#ffffff), color-stop(90%, #f5f5f5));
+    text-shadow: 0px -1px 0px rgba(255, 255, 255, 1.0);
+    color: #404040;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.creation-form div.image-preview {
+    width: 408px;
+    height: 170px;
+    margin-top: 10px;
+    padding: 3px;
+    border: 1px solid #CCCCCC;
+    overflow: hidden;
+    background: #FFFFFF;
+}
+
+.creation-form div.image-preview img {
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.element-jbbasketitems .payment-system strong {
+    vertical-align: baseline !important;
+}
+
+.jbzoo .reindex .bar {
+    width: 400px;
+    background: #eee;
+    line-height: 32px;
+    border-radius: 5px;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.jbzoo .reindex .loader {
+    background: url('../img/autocomplete/loader.gif') 50% 50% no-repeat;
+    height: 16px;
+    width: 16px;
+    display: none;
+    float: left;
+    margin-top: 16px;
+    margin-left: 12px;
+}
+
+.jbzoo .reindex .barInner {
+    text-align: center;
+    width: 100%;
+    background: #00bfff;
+    height: 32px;
+    border-radius: 5px;
+}
+
+.jbzoo .reindex .value {
+    position: absolute;
+    width: 400px;
+}
+
+.jbzoo .reindex .button {
+    width: 70px;
+    height: 24px;
+    margin-top: 12px;
+    float: left;
+}
+
+.jbzoo .reindex .jsStop {
+    color: #a00;
+}
+
+.jbzoo .reindex .statistic {
+    margin-top: 20px;
+}

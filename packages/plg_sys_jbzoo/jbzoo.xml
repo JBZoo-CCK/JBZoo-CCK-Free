@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    JBZoo is universal CCK, application for YooTheme Zoo Joomla component
+    @package     JBZoo
+    @author      JBZoo App http://jbzoo.com
+    @copyright   Copyright (C) JBZoo.com
+    @license     http://www.gnu.org/licenses/gpl.html GNU/GPL
+-->
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+    <name>System - JBZoo (events)</name>
+    <author>JBZoo.com</author>
+    <creationDate>2013 05</creationDate>
+    <copyright>JBZoo.com</copyright>
+    <updateUrl>http://server.jbzoo.com/checkupdates</updateUrl>    
+    <license>http://www.gnu.org/licenses/gpl.html GNU/GPL</license>
+    <assetsLicense>JBZoo Proprietary Use License (http://jbzoo.com/license.php)</assetsLicense>
+    <authorEmail>admin@jbzoo.com</authorEmail>
+    <authorUrl>http://jbzoo.com</authorUrl>
+    <description>Event plugin for JBZoo by JBZoo.com</description>
+    <version>2.0 (Free)</version>
+
+    <files>
+        <filename plugin="jbzoo">jbzoo.php</filename>
+        <filename>index.html</filename>
+    </files>
+
+</extension>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    JBZoo is universal CCK, application for YooTheme Zoo Joomla component
+    @package     JBZoo
+    @author      JBZoo App http://jbzoo.com
+    @copyright   Copyright (C) JBZoo.com
+    @license     http://www.gnu.org/licenses/gpl.html GNU/GPL
+-->
+<extension type="package" version="2.5" method="upgrade">
+    <name>JBZoo App</name>
+    <author>JBZoo.com</author>
+    <creationDate>2013 05</creationDate>
+    <packagename>jbzoo</packagename>
+    <version>2.0 (Free)</version>
+    <updateUrl>http://server.jbzoo.com/checkupdates</updateUrl>
+    <copyright>Copyright (C) JBZoo</copyright>
+    <license>http://www.gnu.org/licenses/gpl.html GNU/GPL</license>
+    <assetsLicense>JBZoo Proprietary Use License (http://jbzoo.com/license.php)</assetsLicense>
+    <authorEmail>admin@jbzoo.com</authorEmail>
+    <authorUrl>http://jbzoo.com</authorUrl>
+
+    <description>
+        JBZoo is universal CCK, application for YooTheme Zoo Joomla component. Developed by JBZoo.com
+    </description>
+
+    <files folder="packages">
+        <file type="file" id="jbuniversal">jbuniversal.zip</file>
+        <file type="plugin" id="jbzoo" group="system">plg_sys_jbzoo.zip</file>
+    </files>
+</extension>
